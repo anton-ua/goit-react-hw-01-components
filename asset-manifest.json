@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/anton-ua/goit-react-hw-01-components/static/css/main.5f361e03.chunk.css",
-    "main.js": "/anton-ua/goit-react-hw-01-components/static/js/main.f24931f8.chunk.js",
-    "main.js.map": "/anton-ua/goit-react-hw-01-components/static/js/main.f24931f8.chunk.js.map",
-    "runtime-main.js": "/anton-ua/goit-react-hw-01-components/static/js/runtime-main.d85d92d3.js",
-    "runtime-main.js.map": "/anton-ua/goit-react-hw-01-components/static/js/runtime-main.d85d92d3.js.map",
-    "static/js/2.a44324a5.chunk.js": "/anton-ua/goit-react-hw-01-components/static/js/2.a44324a5.chunk.js",
-    "static/js/2.a44324a5.chunk.js.map": "/anton-ua/goit-react-hw-01-components/static/js/2.a44324a5.chunk.js.map",
-    "index.html": "/anton-ua/goit-react-hw-01-components/index.html",
-    "precache-manifest.bd9fe2d75a926df20f23386743824501.js": "/anton-ua/goit-react-hw-01-components/precache-manifest.bd9fe2d75a926df20f23386743824501.js",
-    "service-worker.js": "/anton-ua/goit-react-hw-01-components/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/anton-ua/goit-react-hw-01-components/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.a44324a5.chunk.js.LICENSE.txt": "/anton-ua/goit-react-hw-01-components/static/js/2.a44324a5.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/anton-ua/goit-react-hw-01-components/static/media/logo.5d5d9eef.svg"
+    "main.css": "/anton-ua/static/css/main.5f361e03.chunk.css",
+    "main.js": "/anton-ua/static/js/main.efdc3aa5.chunk.js",
+    "main.js.map": "/anton-ua/static/js/main.efdc3aa5.chunk.js.map",
+    "runtime-main.js": "/anton-ua/static/js/runtime-main.7c4c990e.js",
+    "runtime-main.js.map": "/anton-ua/static/js/runtime-main.7c4c990e.js.map",
+    "static/js/2.a44324a5.chunk.js": "/anton-ua/static/js/2.a44324a5.chunk.js",
+    "static/js/2.a44324a5.chunk.js.map": "/anton-ua/static/js/2.a44324a5.chunk.js.map",
+    "index.html": "/anton-ua/index.html",
+    "precache-manifest.b39585caa5d164acfc8a01f1dad560bb.js": "/anton-ua/precache-manifest.b39585caa5d164acfc8a01f1dad560bb.js",
+    "service-worker.js": "/anton-ua/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/anton-ua/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.a44324a5.chunk.js.LICENSE.txt": "/anton-ua/static/js/2.a44324a5.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/anton-ua/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d85d92d3.js",
+    "static/js/runtime-main.7c4c990e.js",
     "static/js/2.a44324a5.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.f24931f8.chunk.js"
+    "static/js/main.efdc3aa5.chunk.js"
   ]
 }
