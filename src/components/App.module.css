@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 720px;
+  text-align: center;
+}

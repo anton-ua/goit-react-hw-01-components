@@ -1,0 +1,32 @@
+.transactionHistory {
+  margin: 0 auto;
+  table-layout: fixed;
+  background-color: #fff;
+  border-collapse: collapse;
+  min-width: 400px;
+}
+
+.transactionHistory thead {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: lightskyblue;
+}
+
+.transactionHistory tbody {
+  font-size: 16px;
+}
+
+.transactionHistory th,
+.transactionHistory td {
+  padding: 10px;
+  border: 1px solid mediumaquamarine;
+}
+
+.transactionHistory tbody tr:nth-child(even) {
+  background-color: lightgoldenrodyellow;
+}
+
+.transactionHistory td:first-of-type,
+.transactionHistory thead th:first-of-type {
+  text-align: left;
+}
