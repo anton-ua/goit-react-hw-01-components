@@ -6,14 +6,12 @@ const UserProfile = ({
   name,
   tag,
   location,
-  imgUrl,
-  followers,
-  views,
-  likes,
+  avatar,
+  stats: { followers, views, likes },
 }) => (
   <div className={styles.profile}>
     <div className={styles.description}>
-      <img src={imgUrl} alt={name} className={styles.avatar} />
+      <img src={avatar} alt={name} className={styles.avatar} />
       <p className={styles.name}>{name}</p>
       <p className={styles.tag}>@{tag}</p>
       <p className={styles.location}>{location}</p>
@@ -36,13 +34,15 @@ const UserProfile = ({
 );
 
 UserProfile.propTypes = {
-  imgUrl: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
-  followers: PropTypes.number.isRequired,
-  views: PropTypes.number.isRequired,
-  likes: PropTypes.number.isRequired,
+  stats: PropTypes.shape({
+    followers: PropTypes.number.isRequired,
+    views: PropTypes.number.isRequired,
+    likes: PropTypes.number.isRequired,
+  }),
 };
 
 export default UserProfile;

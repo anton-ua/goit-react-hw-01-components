@@ -13,6 +13,7 @@ const TransactionHistory = ({ transactions }) => (
     </thead>
 
     <tbody>
+      {console.log(transactions)}
       {transactions.map(({ id, type, amount, currency }) => (
         <tr key={id}>
           <td>{type}</td>
